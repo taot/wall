@@ -18,7 +18,7 @@ where -p specifies the server port, -k specifies the password, both of which are
 Unzip *shadowsocks-local-linux64-[version].gz*, and execute the following command:
 
 ```
-./shadowsocks-local -k=qazwsx$#@! -l=23456 -p=23456 -s=54.191.101.209 -d=true
+./shadowsocks-local -k=password -l=23456 -p=23456 -s=server_host -d=true
 ```
 
 where -k specifies the password, -l specifies the local socks5 proxy port, -p specifies the server port, -s specifies server address.
